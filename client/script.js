@@ -3,7 +3,7 @@ const inputURL = document.querySelector('.input-url');
 const format = document.getElementById('format');
 const quality = document.getElementById('quality');
 
-const serverURL = 'http://localhost:8000';
+const serverURL = 'https://you-tube-downloader-gamma.vercel.app/server';
 
 convertButton.addEventListener('click', () => {
     const selectedFormat = format[format.selectedIndex].value;
